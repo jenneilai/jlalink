@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0A2540"/>
+  <rect x="32" y="32" width="448" height="448" rx="72" fill="#0A2540" stroke="#00C4B4" stroke-width="8"/>
+  <text x="256" y="220" text-anchor="middle" fill="#FFFFFF" font-family="system-ui,sans-serif" font-size="88" font-weight="700">JLA</text>
+  <text x="256" y="310" text-anchor="middle" fill="#00C4B4" font-family="system-ui,sans-serif" font-size="48" font-weight="600">wT</text>
+</svg>

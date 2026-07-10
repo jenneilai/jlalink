@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "title": "JLA Link | We Connect Your Business with Reliable China Sourcing",
+    "description": "JLA Link (捷联) — Guangzhou-based China sourcing partner. Supplier prospecting, factory QC, Canton Fair support, business trips, import/export consulting, and ongoing supplier management."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "faq": "FAQ",
+    "resources": "Resources",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "common": {
+    "backToHome": "Back to Home",
+    "goBack": "Go Back",
+    "backToTop": "Back to top"
+  },
+  "hero": {
+    "badge": "捷联 · JLA Link · Guangzhou",
+    "headline": "We Connect Your Business with Reliable China Sourcing",
+    "subheadline": "We help international businesses find trusted manufacturers, inspect factories, negotiate with suppliers and manage sourcing in China — so you can buy with confidence and scale with less risk.",
+    "ctaPrimary": "Speak to Our Consultants",
+    "ctaSecondary": "Explore Our Services",
+    "stats": {
+      "years": "10+ Years",
+      "yearsLabel": "Helping global businesses succeed in China",
+      "clients": "200+",
+      "clientsLabel": "Companies trust us as their China partner",
+      "cities": "Guangzhou",
+      "citiesLabel": "On-ground team serving the Greater Bay Area and beyond"
+    }
+  },
+  "painPoints": {
+    "label": "What we solve for you",
+    "items": {
+      "language": {
+        "title": "Language Barriers",
+        "description": "You communicate in English — we handle Mandarin negotiations, contracts, and factory visits on your behalf."
+      },
+      "suppliers": {
+        "title": "Reliable Suppliers",
+        "description": "You skip the guesswork. We match you with verified manufacturers aligned with your specs and standards."
+      },
+      "quality": {
+        "title": "Quality Control",
+        "description": "You see the truth before you commit — on-site audits, inspections, and clear reports you can trust."
+      },
+      "logistics": {
+        "title": "Logistics Support",
+        "description": "You avoid shipping headaches. We coordinate ports, customs, and timelines so goods move smoothly."
+      },
+      "time": {
+        "title": "Time & Cost Savings",
+        "description": "You reclaim your time. Our local expertise cuts delays, rework, and hidden costs from day one."
+      }
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "We Are Your Local Team in China.",
+    "description": "Whether you're sourcing your first product or managing an existing supply chain, we're here to represent your business on the ground.",
+    "story": "Based in Guangzhou—the heart of China's manufacturing ecosystem—we help international companies source smarter, negotiate better and avoid costly mistakes. Think of us as your sourcing department in China.",
+    "values": {
+      "trust": {
+        "title": "Trust You Can Rely On",
+        "description": "Verified suppliers, transparent processes, and honest guidance — every step of the way."
+      },
+      "efficiency": {
+        "title": "Efficiency That Saves You Time",
+        "description": "Streamlined sourcing, visits, and negotiations that move your projects forward faster."
+      },
+      "expertise": {
+        "title": "Greater Bay Area Know-how",
+        "description": "Guangzhou, Shenzhen, Foshan, Dongguan — we know where industries cluster and how to reach the right manufacturers efficiently."
+      },
+      "personalized": {
+        "title": "Service Built Around You",
+        "description": "Tailored solutions aligned with your products, budget, timeline, and growth goals."
+      }
+    },
+    "learnMore": "Learn more about us"
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "End-to-end support for every stage of China sourcing",
+    "pageLead": "Six focused services — from finding suppliers to managing long-term partnerships — delivered by our Guangzhou team across the Greater Bay Area and China.",
+    "description": "Start with one service or combine them into a full program. You choose the scope; we provide the on-ground execution.",
+    "viewAll": "View all services",
+    "imageLabel": "On the ground for you",
+    "imageCaption": "Professional sourcing, factory visits, and quality support — delivered by our Guangzhou team.",
+    "items": {
+      "prospecting": {
+        "title": "Supplier Sourcing & Prospecting",
+        "benefit": "Get to verified factories faster",
+        "description": "Identify and shortlist manufacturers that match your product specs, MOQ, and quality requirements — across Guangzhou, the GBA, and China's major industrial hubs — so you're comparing real, verified options instead of guessing from listings.",
+        "detail": "Our team researches industry clusters and trade leads, then validates each candidate on-site before inclusion. You receive a focused shortlist with factory profiles, pricing direction, and recommended next steps — so you spend time on real options, not endless online searches.",
+        "imageCaption": "Targeted supplier research and on-site verification across China."
+      },
+      "qualityInspection": {
+        "title": "Factory Visits & Quality Inspection",
+        "benefit": "See quality before you commit",
+        "description": "Schedule factory audits, production monitoring, and pre-shipment inspections — with photo reports you can act on — so the sample that impressed you is the same quality you get in bulk.",
+        "detail": "We visit production lines, review processes, check samples against your spec, and flag issues early. Whether it's a first-time supplier audit or ongoing QC for reorders, we document findings clearly so you can approve, adjust, or hold shipment with confidence.",
+        "imageCaption": "Factory audits, inline checks, and pre-shipment inspection on the ground."
+      },
+      "tradeShows": {
+        "title": "Trade Show & Exhibition Support",
+        "benefit": "Turn Canton Fair visits into real supplier leads",
+        "description": "Plan your visit to Canton Fair and sector exhibitions — hall routing, interpretation, and structured follow-up included — so you walk into the Canton Fair with a plan, not just a badge.",
+        "detail": "Based minutes from Pazhou, we help you map relevant halls, meet the right exhibitors, interpret negotiations on-site, and organize post-fair follow-up. Booth conversations become verified shortlists — not stacks of forgotten business cards.",
+        "imageCaption": "Canton Fair and sector exhibitions — planning, support, and follow-through."
+      },
+      "businessTrips": {
+        "title": "Business Trip Planning & On-ground Assistance",
+        "benefit": "Productive China trips, without the logistics stress",
+        "description": "Plan itineraries, book meetings, arrange factory visits, and get on-ground assistance across Guangzhou and the Greater Bay Area — so your time in China is spent meeting the right people, not getting lost in logistics.",
+        "detail": "From airport coordination to supplier meetings and factory tours, we handle the practical details so your team focuses on product decisions. Our local presence means same-day adjustments, real-time interpretation, and smoother visits — especially for first-time China travelers.",
+        "imageCaption": "Itineraries, meetings, and on-ground assistance across Guangzhou and the GBA."
+      },
+      "importExport": {
+        "title": "Import/Export Consulting & Negotiation",
+        "benefit": "Clearer costs, smoother customs, stronger terms",
+        "description": "Navigate import and export steps with landed-cost analysis, compliance guidance, and Mandarin negotiation on your behalf — so pricing and terms are clear before you commit, not after.",
+        "detail": "We help you understand Incoterms, documentation, duties, and supplier contracts — then negotiate directly with manufacturers in Mandarin and Cantonese. From quotation review to shipment coordination, we reduce delays, surprises, and miscommunication at each stage.",
+        "imageCaption": "Import/export consulting, cost analysis, and factory negotiation."
+      },
+      "supplierManagement": {
+        "title": "Ongoing Supplier Management",
+        "benefit": "Keep quality and performance on track",
+        "description": "Monitor supplier performance, support reorders, manage renegotiation, and maintain relationships between your visits — so problems get caught before they become shipment delays.",
+        "detail": "China sourcing doesn't end at the first order. We track delivery and quality trends, facilitate communication on reorders, review pricing periodically, and flag issues before they affect your customers — your continuing presence in Guangzhou between trips.",
+        "imageCaption": "Long-term supplier oversight and reorder support from Guangzhou."
+      }
+    }
+  },
+  "servicesCta": {
+    "label": "Get in touch",
+    "title": "Tell us about your project — we'd be glad to explain how we can help",
+    "subtitle": "Share your product, goals, and timeline. Our Guangzhou consultants respond within one business day with honest, practical advice.",
+    "button": "Speak to our consultants"
+  },
+  "whyChoose": {
+    "label": "Why Choose JLA Link",
+    "title": "The local expertise global buyers need in China",
+    "description": "Headquartered in Guangzhou, we combine deep regional knowledge with practical, results-focused support — so you source, inspect, and ship with a trusted team beside you.",
+    "items": {
+      "qualifiedSuppliers": {
+        "title": "Verified suppliers, face to face",
+        "description": "We visit factories before recommending them — checking capacity, credentials, and samples so you decide with clearer, first-hand information."
+      },
+      "flexibleServices": {
+        "title": "Six services, flexible scope",
+        "description": "Use one service or combine several as your project evolves — from a single audit to full sourcing, trips, and long-term supplier management."
+      },
+      "mandarin": {
+        "title": "Negotiation & communication support",
+        "description": "Our team handles Mandarin and Cantonese with factories and partners, keeping you updated in clear language throughout each project."
+      },
+      "location": {
+        "title": "Guangzhou & Greater Bay Area advantage",
+        "description": "Minutes from Canton Fair, Pearl River Delta factories, and major export ports — same time zone, faster response, stronger local connections."
+      },
+      "marketKnowledge": {
+        "title": "Industry-focused experience",
+        "description": "Electronics, machinery, consumer goods, packaging, and more — we apply sector knowledge to help you source and ship more effectively."
+      },
+      "onSiteVisits": {
+        "title": "On-ground execution you can rely on",
+        "description": "Factory visits, trade fair support, trip coordination, and shipment checks — documented and delivered by a team that works in Guangzhou every day."
+      },
+      "noHiddenCommissions": {
+        "title": "No Hidden Commissions",
+        "description": "Some agents take kickbacks from the factories they recommend — you'd never know. Our fee comes from you, not from suppliers, so every recommendation is based on what's actually best for your order."
+      }
+    }
+  },
+  "cta": {
+    "title": "Let's work together",
+    "description": "Whether you're just starting with China or looking for reliable local support on your next order — we'd be glad to hear from you.",
+    "primary": "Contact us",
+    "secondary": "View our services"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Your questions, answered clearly",
+    "description": "Straightforward answers about how JLA Link supports your China business.",
+    "items": {
+      "services": {
+        "question": "What can JLA Link do for my business?",
+        "answer": "We offer six core services from our Guangzhou team: supplier sourcing & prospecting, factory visits & quality inspection, trade show & exhibition support (including Canton Fair), business trip planning & on-ground assistance, import/export consulting & negotiation, and ongoing supplier management. Use what you need — individually or together."
+      },
+      "languages": {
+        "question": "I don't speak Mandarin — can you still help?",
+        "answer": "Yes. You communicate with us in English; our team handles Mandarin and Cantonese with factories, freight forwarders, and customs contacts, and keeps you informed with clear summaries along the way."
+      },
+      "alibaba1688": {
+        "question": "I already source through Alibaba/1688 myself — why do I need you?",
+        "answer": "Alibaba and 1688 show you what suppliers say about themselves. We show you what's actually true — verified in person in Guangzhou, before you commit a deposit. Many clients use us alongside their existing sourcing, not instead of it — to catch problems before they become expensive."
+      },
+      "gettingStarted": {
+        "question": "How do I get started?",
+        "answer": "Tell us about your product, target price, and timeline through our contact form. A JLA Link consultant will review your needs, discuss whether China sourcing is a good fit, and outline practical next steps — usually within one business day."
+      },
+      "difficulty": {
+        "question": "Is doing business in China challenging?",
+        "answer": "China offers great opportunities, but distance, language, and supplier verification can be difficult without local support. We're here to help you navigate these steps carefully — with factory visits, clear communication, and coordinated logistics from Guangzhou."
+      },
+      "costs": {
+        "question": "How can you help me manage costs?",
+        "answer": "We look beyond factory quotes to landed cost — including MOQ, tooling, freight, duties, and quality risk. By negotiating directly with manufacturers, planning orders thoughtfully, and inspecting before shipment when needed, we help you make better-informed purchasing decisions."
+      },
+      "existingSuppliers": {
+        "question": "I already have China suppliers — how can JLA Link help?",
+        "answer": "We can audit existing partners on-site, support renegotiation, inspect reorders before shipment, and help you explore alternatives when useful. Many clients keep their current suppliers and use us for independent quality checks and logistics support in Guangzhou."
+      }
+    }
+  },
+  "resources": {
+    "label": "Resources",
+    "title": "Practical guides from our Guangzhou team",
+    "description": "Actionable playbooks on Canton Fair planning, supplier vetting, factory audits, and import logistics — written by consultants who deliver these services on the ground.",
+    "viewAll": "Browse all articles",
+    "seeAll": "SEE ALL",
+    "speakToConsultants": "Speak to our consultants",
+    "readMore": "Read article",
+    "backToResources": "Back to Resources",
+    "noResults": "No articles in this category yet.",
+    "relatedLabel": "Keep reading",
+    "relatedTitle": "More guides from JLA Link",
+    "blogHero": {
+      "label": "Resources & Insights",
+      "title": "Knowledge that supports better sourcing decisions",
+      "subtitle": "Canton Fair planning, GBA supplier vetting, factory audits, and import logistics — practical guides from JLA Link consultants in Guangzhou.",
+      "cta": "Speak to our consultants"
+    },
+    "filters": {
+      "all": "All",
+      "tradeShows": "Trade Shows",
+      "sourcing": "Sourcing",
+      "quality": "Quality",
+      "logistics": "Logistics"
+    },
+    "ctaBlock": {
+      "title": "Ready to put these guides into action?",
+      "description": "Our Guangzhou team can help you source suppliers, visit factories, inspect quality, and coordinate your next China project.",
+      "button": "Speak to our consultants"
+    },
+    "articles": {
+      "article1": {
+        "category": "Trade Shows",
+        "serviceFocus": "JLA service: Canton Fair planning, Pazhou navigation & on-ground interpretation",
+        "title": "Canton Fair Phase 1 & 2: A Buyer's Guide to the Pazhou Complex in Guangzhou",
+        "excerpt": "How to register, navigate electronics vs. machinery halls, and follow up with suppliers — with or without Mandarin.",
+        "date": "March 2026",
+        "readTime": "8 min read",
+        "content": {
+          "intro": "The Canton Fair runs in three phases each spring and autumn at the Pazhou Complex in Guangzhou. Phase 1 (April/October) covers electronics, home appliances, and building materials; Phase 2 focuses on consumer goods, gifts, and home décor. JLA Link's Guangzhou team helps buyers plan hall routes, interpret on-site, and convert booth conversations into verified supplier shortlists.",
+          "closing": "A successful Canton Fair trip is not about collecting the most business cards — it's about identifying verified suppliers aligned with your specs, budget, and timeline. JLA Link can help you plan your visit, interpret on-site, and follow up after the fair.",
+          "cta": "Talk to a JLA Link consultant →",
+          "sections": [
+            {
+              "title": "Before you travel: registration & Pazhou hall planning",
+              "paragraphs": [
+                "Register online in advance and confirm your buyer badge category. Define clear goals: product categories, target FOB prices, MOQ limits, and certification requirements. JLA Link can pre-map halls (Areas A, B, C, D) so you spend time with the right exhibitors — not walking empty aisles."
+              ],
+              "bullets": [
+                "Book flights and hotels early — Guangzhou fills up during fair phases.",
+                "Prepare a one-page product brief with photos, dimensions, materials, and packaging.",
+                "List must-have vs. nice-to-have supplier criteria before you arrive.",
+                "Schedule meetings with priority suppliers where possible — we coordinate in Mandarin."
+              ]
+            },
+            {
+              "title": "At the fair: hall strategy & what to ask",
+              "paragraphs": [
+                "Phase 1 electronics and machinery halls differ from Phase 2 gifts and consumer goods. Walk with a structured checklist — strong suppliers answer clearly and provide evidence."
+              ],
+              "bullets": [
+                "Are you a factory or trading company? Can we visit your production site?",
+                "What is your MOQ, lead time, and sample policy?",
+                "Which markets do you export to? Can you share references or certifications?",
+                "Who owns the tooling? What are your payment terms?",
+                "Take photos of booths, products, and name cards — note hall and booth numbers."
+              ]
+            },
+            {
+              "title": "After the fair: follow-up that converts",
+              "paragraphs": [
+                "Most deals are won or lost in the two weeks after the fair. Move quickly while suppliers are still engaged."
+              ],
+              "bullets": [
+                "Email suppliers within 48 hours with your product brief and quantity estimate.",
+                "Request formal quotations with Incoterms, payment terms, and lead times.",
+                "Shortlist 3–5 suppliers for factory audits or sample orders — not 20.",
+                "Use a local partner to verify factories before you commit to production."
+              ]
+            }
+          ]
+        }
+      },
+      "article2": {
+        "category": "Sourcing",
+        "serviceFocus": "JLA service: GBA factory shortlisting, export license checks & MOQ negotiation",
+        "title": "Supplier Prospecting in Guangzhou & the GBA: Beyond Alibaba Listings",
+        "excerpt": "How JLA Link shortlists verified factories, checks export licenses, and negotiates MOQ and pricing in Mandarin on your behalf.",
+        "date": "February 2026",
+        "readTime": "7 min read",
+        "content": {
+          "intro": "Guangzhou and the Greater Bay Area (GBA) host dense industrial clusters — electronics in Shenzhen, furniture in Foshan, hardware in Dongguan. Platform listings alone do not prove factory capability. JLA Link shortlists manufacturers against your specs, verifies business licenses and export records, and negotiates MOQ and lead times before you wire a deposit.",
+          "closing": "Successful sourcing is a process, not a one-time search. JLA Link helps you find verified factories, negotiate in Mandarin, and inspect quality before you ship — so your first order is not a costly experiment.",
+          "cta": "Talk to a JLA Link consultant →",
+          "sections": [
+            {
+              "title": "Start with clarity — define what you need",
+              "paragraphs": [
+                "Factories respond best to precise briefs. Before you contact anyone, document exactly what you want to buy."
+              ],
+              "bullets": [
+                "Product specs: materials, dimensions, colors, packaging, labeling.",
+                "Target FOB price and expected annual volume.",
+                "Required certifications (CE, FCC, RoHS, food-contact, etc.).",
+                "Acceptable MOQ and lead time for first and repeat orders."
+              ]
+            },
+            {
+              "title": "GBA industrial clusters — where to look first",
+              "paragraphs": [
+                "Matching product category to the right city saves weeks. JLA Link maps your SKU to proven manufacturing zones before outreach begins."
+              ],
+              "bullets": [
+                "Electronics & components: Shenzhen, Dongguan.",
+                "Furniture & building materials: Foshan, Zhongshan.",
+                "Textiles & apparel: Guangzhou, Dongguan.",
+                "Cosmetics & packaging: Guangzhou, Huizhou.",
+                "We cross-check company names on official Chinese business registries."
+              ]
+            },
+            {
+              "title": "What JLA verifies before you receive a shortlist",
+              "paragraphs": [
+                "We filter out trading companies posing as factories and suppliers with weak export history to your market."
+              ],
+              "bullets": [
+                "Prefer manufacturers over trading companies when possible — ask for factory license and export records.",
+                "Cross-check company names on official Chinese business registries.",
+                "Avoid suppliers who refuse factory visits or third-party inspections.",
+                "Be cautious of prices far below market — quality or compliance often suffers.",
+                "Trade shows and local sourcing partners surface vetted options faster."
+              ]
+            },
+            {
+              "title": "Protect yourself before the first payment",
+              "paragraphs": [
+                "Never skip verification. A small investment in due diligence prevents expensive rework later."
+              ],
+              "bullets": [
+                "Order samples before bulk production — test function, finish, and packaging.",
+                "Conduct a factory audit or send a local agent to verify capacity and quality systems.",
+                "Use clear contracts covering specs, defects, timelines, and IP.",
+                "Stage payments: deposit, pre-shipment inspection, balance after approval.",
+                "Book pre-shipment inspection before goods leave China."
+              ]
+            }
+          ]
+        }
+      },
+      "article3": {
+        "category": "Quality",
+        "serviceFocus": "JLA service: On-ground factory audits before deposit & pre-shipment inspection",
+        "title": "Pre-Production Factory Audits: What JLA Link Inspects Before You Pay a Deposit",
+        "excerpt": "What our Guangzhou team checks on-site — export licenses, QC records, and production lines matched to your order size.",
+        "date": "January 2026",
+        "readTime": "9 min read",
+        "content": {
+          "intro": "A factory audit reveals whether a supplier can consistently deliver what they promise — not what their sales team shows in a sample room. JLA Link conducts on-ground audits across Guangdong: we verify licenses, walk production lines, review QC records, and document findings in English before you approve a deposit.",
+          "closing": "A single factory visit can save months of rework and damaged customer relationships. JLA Link conducts on-ground audits, documents findings clearly, and helps you decide with confidence.",
+          "cta": "Talk to a JLA Link consultant →",
+          "sections": [
+            {
+              "title": "Company legitimacy & export experience",
+              "bullets": [
+                "Business license matches the factory name and export scope.",
+                "Export history to your target market (US, EU, etc.).",
+                "Stable operation — not a small office posing as a factory.",
+                "Willingness to share references and allow unannounced visits."
+              ]
+            },
+            {
+              "title": "Production capability & equipment",
+              "bullets": [
+                "Production lines relevant to your product category.",
+                "Equipment condition, maintenance, and capacity vs. your order size.",
+                "In-house testing tools or QC stations on the line.",
+                "Raw material storage and traceability practices.",
+                "Subcontractor use — if any, who controls quality?"
+              ]
+            },
+            {
+              "title": "Quality management & social compliance",
+              "bullets": [
+                "Documented QC process: incoming, in-process, final inspection.",
+                "Defect handling procedure and corrective action records.",
+                "ISO or industry-specific certifications where applicable.",
+                "Worker safety, clean workspace, and reasonable working conditions.",
+                "Sample room matches mass-production capability — not showcase only."
+              ]
+            },
+            {
+              "title": "Red flags that should stop the deal",
+              "paragraphs": [
+                "If you see multiple warning signs below, pause and investigate further before paying a deposit."
+              ],
+              "bullets": [
+                "Refusal to allow photography or walk the production floor.",
+                "No quality records, test reports, or process documents.",
+                "Extreme rush to collect deposit without sample approval.",
+                "Specs in quotation differ from samples without explanation.",
+                "Trading company unable to name the actual manufacturing site."
+              ]
+            }
+          ]
+        }
+      },
+      "article4": {
+        "category": "Logistics",
+        "serviceFocus": "JLA service: FOB/CIF coordination, Nansha port shipping & customs documentation",
+        "title": "Import from China: Incoterms, Guangzhou Port Logistics & Customs Clearance",
+        "excerpt": "FOB vs. CIF, Nansha and Guangzhou port options, export documentation, and how to avoid clearance delays at destination.",
+        "date": "December 2025",
+        "readTime": "6 min read",
+        "content": {
+          "intro": "Shipping from Guangzhou or Shenzhen is straightforward when Incoterms, documentation, and inspection timing are aligned from the start. JLA Link coordinates with freight forwarders, prepares export paperwork, and schedules pre-shipment inspection so your container clears customs without surprises.",
+          "closing": "Logistics failures — wrong HS codes, missing certificates, or shipping before inspection — are preventable. JLA Link manages the handoff from factory floor to port so you receive goods that match what you approved.",
+          "cta": "Talk to a JLA Link consultant →",
+          "sections": [
+            {
+              "title": "FOB, CIF, and EXW — which term fits your risk profile",
+              "paragraphs": [
+                "Incoterms define who pays freight, insurance, and export/import clearance. Most JLA clients start with FOB Guangzhou or Shenzhen for clearer cost control."
+              ],
+              "bullets": [
+                "FOB: supplier delivers to port; you book ocean freight and insurance.",
+                "CIF: supplier arranges freight to your port — verify markup and carrier quality.",
+                "EXW: you collect from factory — rarely ideal for first-time importers.",
+                "Confirm Incoterm in writing on PO, proforma invoice, and commercial invoice."
+              ]
+            },
+            {
+              "title": "Export documentation JLA prepares or verifies",
+              "bullets": [
+                "Commercial invoice, packing list, and bill of lading aligned with PO specs.",
+                "HS codes and product descriptions matching destination customs requirements.",
+                "Certificates of origin, fumigation, or test reports where required.",
+                "Export license or dual-use checks for regulated product categories.",
+                "Pre-shipment inspection report attached before goods leave the factory."
+              ]
+            },
+            {
+              "title": "Guangzhou & Nansha port — timing your shipment",
+              "paragraphs": [
+                "Guangzhou's Nansha port and nearby Shenzhen/Yantian terminals serve most GBA exports. Lead times vary by season and carrier."
+              ],
+              "bullets": [
+                "Book container space 2–3 weeks before cargo-ready date in peak season.",
+                "Allow 3–5 days for customs declaration and port entry after inspection pass.",
+                "Consolidate LCL only when product mix and importers align — avoid delays.",
+                "Track container status and share ETA with your customs broker early.",
+                "JLA coordinates factory delivery to warehouse or port CY cut-off."
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's discuss your China sourcing goals",
+    "description": "Tell us about your products, timeline, and priorities. Our Guangzhou consultants will respond within one business day with practical next steps.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "How can we help you?",
+      "submit": "Send message",
+      "success": "Thank you — we'll be in touch within one business day."
+    },
+    "info": {
+      "title": "Get in touch",
+      "locationLabel": "Location",
+      "location": "Guangzhou, China",
+      "locationDetail": "Headquartered in Guangzhou — serving the Greater Bay Area, Canton Fair visitors, and clients nationwide",
+      "emailLabel": "E-mail",
+      "email": "contact@jlalink.com",
+      "phoneLabel": "Telephone",
+      "phone": "+8615217389546",
+      "phoneTel": "+8615217389546",
+      "messagingLabel": "WhatsApp · WeChat",
+      "whatsapp": "WhatsApp",
+      "wechat": "WeChat"
+    },
+    "cta": "Contact us"
+  },
+  "footer": {
+    "tagline": "Your trusted partner for China business — Guangzhou",
+    "company": "JLA Link · 捷联",
+    "description": "JLA Link (捷联) — your Guangzhou-based China sourcing partner. Six services from supplier prospecting to ongoing management, delivered with local expertise and care.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us"
+  },
+  "pages": {
+    "about": {
+      "title": "About JLA Link",
+      "subtitle": "Making China sourcing simple and reliable for global businesses — from Guangzhou"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Six services covering every stage of China sourcing — from prospecting to long-term management"
+    },
+    "resources": {
+      "title": "Resources & Insights",
+      "subtitle": "Practical guides from our Guangzhou consultants — Canton Fair, sourcing, QC, and logistics"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Reach our Guangzhou team — we respond within one business day"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "How JLA Link collects, uses, and protects your information"
+    }
+  },
+  "privacy": {
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "JLA Link (捷联) respects your privacy. This policy explains what information we collect when you visit our website or contact us, how we use it, and the choices you have.",
+    "contactTitle": "Questions about this policy?",
+    "contactText": "If you have questions about how we handle your data, please contact us:",
+    "contactEmail": "contact@jlalink.com",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "paragraphs": [
+          "When you submit our contact form, we collect the details you provide — such as your name, email address, company name, and message content.",
+          "When you browse our website, we may automatically collect technical information such as your browser type, device type, pages visited, and approximate location (country/region) through standard analytics tools."
+        ]
+      },
+      {
+        "title": "How we use your information",
+        "paragraphs": [
+          "We use your contact details to respond to inquiries, provide consulting services, and follow up on business requests you initiate.",
+          "We use website usage data to improve our content, understand visitor interests, and maintain site security.",
+          "We do not sell your personal information to third parties."
+        ]
+      },
+      {
+        "title": "Cookies & analytics",
+        "paragraphs": [
+          "Our website may use cookies and similar technologies to remember language preferences and measure site performance.",
+          "You can control cookies through your browser settings. Disabling cookies may affect certain site features such as language selection."
+        ]
+      },
+      {
+        "title": "Data sharing & retention",
+        "paragraphs": [
+          "We may share information with trusted service providers who help us operate our website or deliver email communications — for example, hosting and email delivery services. These providers are required to protect your data.",
+          "We retain contact form submissions for as long as needed to respond to your inquiry and maintain our business records, unless you request deletion where applicable by law."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "Depending on your location, you may have the right to access, correct, or delete personal information we hold about you, or to object to certain processing.",
+          "To exercise these rights, email us at contact@jlalink.com. We will respond within a reasonable timeframe."
+        ]
+      },
+      {
+        "title": "International transfers",
+        "paragraphs": [
+          "JLA Link is headquartered in Guangzhou, China. If you contact us from outside China, your information may be transferred to and processed in China or other countries where our service providers operate.",
+          "We take reasonable steps to ensure appropriate safeguards are in place when data is transferred internationally."
+        ]
+      },
+      {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this Privacy Policy from time to time. The \"Last updated\" date at the top of this page indicates when the policy was last revised.",
+          "Continued use of our website after changes are posted constitutes acceptance of the updated policy."
+        ]
+      }
+    ]
+  }
+}
