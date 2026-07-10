@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
