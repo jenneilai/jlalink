@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { SocialContactIcons } from "@/components/layout/SocialContactIcons";
 import { siteContact } from "@/lib/site-config";
 
 export async function Footer() {
@@ -72,8 +73,7 @@ export async function Footer() {
                   {siteContact.email}
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 shrink-0 text-teal" />
+              <li>
                 <a
                   href={`tel:${siteContact.phoneTel}`}
                   className="tracking-wide hover:text-white"
@@ -81,7 +81,11 @@ export async function Footer() {
                   {siteContact.phone}
                 </a>
               </li>
+              <li className="text-white/60">
+                {tContact("wechatId", { id: siteContact.wechatId })}
+              </li>
             </ul>
+            <SocialContactIcons size="sm" className="mt-4" />
           </div>
         </div>
 

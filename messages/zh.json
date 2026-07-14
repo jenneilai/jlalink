@@ -494,13 +494,18 @@
       "location": "中国广州",
       "locationDetail": "总部广州——服务粤港澳大湾区、广交会访客及全国客户",
       "emailLabel": "邮箱",
+      "contactLabel": "联系方式",
       "email": "contact@jlalink.com",
       "phoneLabel": "电话",
       "phone": "+8615217389546",
       "phoneTel": "+8615217389546",
-      "messagingLabel": "WhatsApp · 微信",
+      "instagram": "Instagram",
+      "messagingLabel": "关注我们",
       "whatsapp": "WhatsApp",
-      "wechat": "微信"
+      "wechat": "微信",
+      "wechatId": "微信号：{id}",
+      "wechatCopy": "复制微信号 {id}",
+      "wechatCopied": "微信号已复制"
     },
     "cta": "联系我们"
   },

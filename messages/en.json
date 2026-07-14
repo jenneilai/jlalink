@@ -494,13 +494,18 @@
       "location": "Guangzhou, China",
       "locationDetail": "Headquartered in Guangzhou — serving the Greater Bay Area, Canton Fair visitors, and clients nationwide",
       "emailLabel": "E-mail",
+      "contactLabel": "Contact",
       "email": "contact@jlalink.com",
       "phoneLabel": "Telephone",
       "phone": "+8615217389546",
       "phoneTel": "+8615217389546",
-      "messagingLabel": "WhatsApp · WeChat",
+      "instagram": "Instagram",
+      "messagingLabel": "Connect with us",
       "whatsapp": "WhatsApp",
-      "wechat": "WeChat"
+      "wechat": "WeChat",
+      "wechatId": "WeChat ID: {id}",
+      "wechatCopy": "Copy WeChat ID {id}",
+      "wechatCopied": "WeChat ID copied"
     },
     "cta": "Contact us"
   },

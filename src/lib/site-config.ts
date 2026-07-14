@@ -4,7 +4,8 @@ export const siteContact = {
   phone: "+8615217389546",
   phoneTel: "+8615217389546",
   whatsapp: "8615217389546",
-  wechatId: "JLA-Link",
+  wechatId: "Juans009",
+  instagram: "jlalink",
   location: {
     en: "Guangzhou, China",
     zh: "中国广州",

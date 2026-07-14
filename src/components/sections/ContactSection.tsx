@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { SectionHeading } from "@/components/layout/SectionHeading";
+import { SocialContactIcons } from "@/components/layout/SocialContactIcons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -19,70 +20,6 @@ export function ContactSection() {
     e.preventDefault();
     setSubmitted(true);
   };
-
-  const infoItems = [
-    {
-      icon: MapPin,
-      label: t("info.locationLabel"),
-      content: (
-        <>
-          <p className="font-medium text-white">{t("info.location")}</p>
-          <p className="mt-1 text-sm leading-relaxed text-white/65">
-            {t("info.locationDetail")}
-          </p>
-        </>
-      ),
-    },
-    {
-      icon: Mail,
-      label: t("info.emailLabel"),
-      content: (
-        <a
-          href={`mailto:${siteContact.email}`}
-          className="font-medium text-white transition-colors hover:text-teal"
-        >
-          {siteContact.email}
-        </a>
-      ),
-    },
-    {
-      icon: Phone,
-      label: t("info.phoneLabel"),
-      content: (
-        <a
-          href={`tel:${siteContact.phoneTel}`}
-          className="font-medium tracking-wide text-white transition-colors hover:text-teal"
-        >
-          {siteContact.phone}
-        </a>
-      ),
-    },
-    {
-      icon: MessageCircle,
-      label: t("info.messagingLabel"),
-      content: (
-        <div className="space-y-1 text-sm leading-relaxed text-white/80">
-          <p>
-            <a
-              href={`https://wa.me/${siteContact.whatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-white transition-colors hover:text-teal"
-            >
-              {t("info.whatsapp")}
-            </a>
-            <span className="text-white/50"> · </span>
-            <span className="text-white/80">{t("info.wechat")}</span>
-          </p>
-          <p className="font-medium tracking-wide text-white">
-            {siteContact.phone}
-            <span className="ml-2 text-white/50">·</span>
-            <span className="ml-2 text-white/70">{siteContact.wechatId}</span>
-          </p>
-        </div>
-      ),
-    },
-  ];
 
   return (
     <section id="contact" className="section-padding section-alt">
@@ -145,21 +82,60 @@ export function ContactSection() {
           </FadeIn>
 
           <FadeIn delay={0.1} className="lg:col-span-2">
-            <div className="h-full rounded-2xl border border-white/10 bg-navy p-6 text-white shadow-[0_4px_24px_-4px_rgba(0,0,0,0.25)] sm:p-8">
+            <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-navy p-6 text-white shadow-[0_4px_24px_-4px_rgba(0,0,0,0.25)] sm:p-8">
               <h3 className="text-lg font-bold sm:text-xl">{t("info.title")}</h3>
-              <ul className="mt-8 divide-y divide-white/10">
-                {infoItems.map((item) => (
-                  <li key={item.label} className="flex gap-4 py-6 first:pt-0 last:pb-0">
-                    <item.icon className="mt-0.5 h-5 w-5 shrink-0 text-teal" />
+
+              <div className="mt-8 space-y-8">
+                <div className="flex gap-4">
+                  <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-teal" />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-teal">
+                      {t("info.locationLabel")}
+                    </p>
+                    <p className="mt-2 font-medium text-white">
+                      {t("info.location")}
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed text-white/65">
+                      {t("info.locationDetail")}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="border-t border-white/10 pt-8">
+                  <div className="flex gap-4">
+                    <Mail className="mt-0.5 h-5 w-5 shrink-0 text-teal" />
                     <div className="min-w-0 flex-1">
                       <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-teal">
-                        {item.label}
+                        {t("info.contactLabel")}
                       </p>
-                      <div className="mt-2">{item.content}</div>
+                      <div className="mt-3 space-y-2">
+                        <a
+                          href={`mailto:${siteContact.email}`}
+                          className="block font-medium text-white transition-colors hover:text-teal"
+                        >
+                          {siteContact.email}
+                        </a>
+                        <a
+                          href={`tel:${siteContact.phoneTel}`}
+                          className="block font-medium tracking-wide text-white transition-colors hover:text-teal"
+                        >
+                          {siteContact.phone}
+                        </a>
+                        <p className="text-sm text-white/65">
+                          {t("info.wechatId", { id: siteContact.wechatId })}
+                        </p>
+                      </div>
+
+                      <div className="mt-5">
+                        <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.18em] text-teal">
+                          {t("info.messagingLabel")}
+                        </p>
+                        <SocialContactIcons size="md" />
+                      </div>
                     </div>
-                  </li>
-                ))}
-              </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </FadeIn>
         </div>
