@@ -121,9 +121,6 @@ export function ContactSection() {
                         >
                           {siteContact.phone}
                         </a>
-                        <p className="text-sm text-white/65">
-                          {t("info.wechatId", { id: siteContact.wechatId })}
-                        </p>
                       </div>
 
                       <div className="mt-5">

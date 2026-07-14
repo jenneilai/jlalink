@@ -5,6 +5,7 @@ export const siteContact = {
   phoneTel: "+8615217389546",
   whatsapp: "8615217389546",
   wechatId: "Juans009",
+  wechatUrl: "weixin://contacts/profile/Juans009",
   instagram: "jlalink",
   location: {
     en: "Guangzhou, China",

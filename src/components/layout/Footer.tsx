@@ -81,9 +81,6 @@ export async function Footer() {
                   {siteContact.phone}
                 </a>
               </li>
-              <li className="text-white/60">
-                {tContact("wechatId", { id: siteContact.wechatId })}
-              </li>
             </ul>
             <SocialContactIcons size="sm" className="mt-4" />
           </div>
