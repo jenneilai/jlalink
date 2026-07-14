@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { SetHtmlLang } from "@/components/layout/SetHtmlLang";
 import { ScrollRestoration } from "@/components/layout/ScrollRestoration";
 import { BackToTop } from "@/components/layout/BackToTop";
+import { WhatsAppFloatingButton } from "@/components/layout/WhatsAppFloatingButton";
 import "../globals.css";
 
 type Props = {
@@ -50,6 +51,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
+      <WhatsAppFloatingButton />
       <BackToTop />
     </NextIntlClientProvider>
   );
