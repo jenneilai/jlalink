@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" fill="none">
+  <rect width="88" height="88" rx="16" fill="#000000"/>
+  <text
+    x="44"
+    y="49"
+    text-anchor="middle"
+    fill="#00C4B4"
+    font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="13.5"
+    font-weight="700"
+    letter-spacing="-0.03em"
+  >JLA Link</text>
+</svg>
