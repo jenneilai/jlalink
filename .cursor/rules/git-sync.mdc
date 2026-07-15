@@ -1,0 +1,29 @@
+---
+description: Auto commit and push JLA Link changes to GitHub after each update
+alwaysApply: true
+---
+
+# JLA Link — Git Sync Workflow
+
+After completing any code or content changes to this project, **always sync to GitHub** unless the user explicitly says not to.
+
+## Required steps
+
+1. Run `git status` and `git diff` to review changes.
+2. Stage relevant files with `git add` (never commit `.env*` or secrets).
+3. Commit with a clear, concise message describing the change.
+4. Push to `origin main` (`git push`).
+5. Confirm sync succeeded (`git status` shows clean and up to date with `origin/main`).
+
+## Commit author
+
+If git identity is not configured, use one-time env vars or `-c user.name=... -c user.email=...` — do not update global git config.
+
+## Remote
+
+- Repository: `https://github.com/jenneilai/jlalink.git`
+- Branch: `main`
+
+## When to skip
+
+Only skip commit/push when the user explicitly requests local-only changes or says not to push.
