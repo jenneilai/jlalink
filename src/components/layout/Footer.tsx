@@ -26,7 +26,7 @@ export async function Footer() {
           <div className="lg:col-span-2">
             <div className="mb-4">
               <BrandLockup
-                nameClassName="text-lg text-brand-cyan"
+                nameClassName="text-lg text-white"
                 subtitleClassName="text-white/70"
               />
               <p className="mt-2 text-sm text-white/60">{t("tagline")}</p>

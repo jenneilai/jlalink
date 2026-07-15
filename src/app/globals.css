@@ -5,9 +5,8 @@
   --foreground: #0a2540;
   --navy: #0a2540;
   --navy-light: #123a5c;
-  --teal: #2ee8f0;
-  --teal-dark: #1bc5d4;
-  --brand-cyan: #3de8f0;
+  --teal: #00c4b4;
+  --teal-dark: #00a89a;
   --muted: #64748b;
   --border: #e2e8f0;
   --card: #ffffff;
@@ -20,7 +19,6 @@
   --color-navy-light: var(--navy-light);
   --color-teal: var(--teal);
   --color-teal-dark: var(--teal-dark);
-  --color-brand-cyan: var(--brand-cyan);
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-card: var(--card);
@@ -48,10 +46,10 @@ body {
 
 .china-pattern {
   background-image:
-    linear-gradient(135deg, rgba(46, 232, 240, 0.04) 25%, transparent 25%),
-    linear-gradient(225deg, rgba(46, 232, 240, 0.04) 25%, transparent 25%),
-    linear-gradient(45deg, rgba(46, 232, 240, 0.04) 25%, transparent 25%),
-    linear-gradient(315deg, rgba(46, 232, 240, 0.04) 25%, transparent 25%);
+    linear-gradient(135deg, rgba(0, 196, 180, 0.04) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(0, 196, 180, 0.04) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(0, 196, 180, 0.04) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(0, 196, 180, 0.04) 25%, transparent 25%);
   background-size: 48px 48px;
   background-position:
     0 0,
@@ -61,7 +59,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #3de8f0 0%, #2ee8f0 100%);
+  background: linear-gradient(135deg, #00c4b4 0%, #5eead4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -21,7 +21,7 @@ export function BrandLockup({
         alt="JLA Link"
         width={44}
         height={44}
-        className="h-10 w-10 shrink-0 rounded-xl object-cover shadow-[0_0_20px_rgba(46,232,240,0.25)] sm:h-11 sm:w-11"
+        className="h-10 w-10 shrink-0 rounded-xl object-cover sm:h-11 sm:w-11"
         priority
       />
       <div className={cn(showSubtitle ? "hidden sm:block" : "block")}>
