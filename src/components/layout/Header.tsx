@@ -106,8 +106,7 @@ export function Header() {
         <Link href="/" className="group">
           <BrandLockup
             nameClassName={cn(
-              "transition-colors duration-300",
-              useSolidHeader ? "text-navy" : "text-white"
+              "text-teal transition-colors duration-300"
             )}
             subtitleClassName={cn(
               "transition-colors duration-300",
