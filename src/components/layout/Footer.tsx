@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Mail, MapPin } from "lucide-react";
 import { SocialContactIcons } from "@/components/layout/SocialContactIcons";
+import { BrandLockup } from "@/components/layout/BrandLockup";
 import { siteContact } from "@/lib/site-config";
 
 export async function Footer() {
@@ -23,14 +24,12 @@ export async function Footer() {
       <div className="container-wide section-padding !py-12 sm:!py-14">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-teal text-sm font-bold text-white">
-                JLA
-              </div>
-              <div>
-                <p className="text-lg font-bold">{t("company")}</p>
-                <p className="text-sm text-white/60">{t("tagline")}</p>
-              </div>
+            <div className="mb-4">
+              <BrandLockup
+                nameClassName="text-lg text-brand-cyan"
+                subtitleClassName="text-white/70"
+              />
+              <p className="mt-2 text-sm text-white/60">{t("tagline")}</p>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-white/70">
               {t("description")}

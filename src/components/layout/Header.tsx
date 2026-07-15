@@ -6,6 +6,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { BrandLockup } from "./BrandLockup";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -102,35 +103,17 @@ export function Header() {
       )}
     >
       <div className="container-wide flex h-20 items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="group flex items-center gap-3">
-          <div
-            className={cn(
-              "flex h-10 w-10 items-center justify-center rounded-xl text-sm font-bold transition-colors duration-300",
-              useSolidHeader
-                ? "bg-navy text-white shadow-lg shadow-navy/20"
-                : "border border-white/25 bg-white/10 text-white backdrop-blur-sm"
+        <Link href="/" className="group">
+          <BrandLockup
+            nameClassName={cn(
+              "transition-colors duration-300",
+              useSolidHeader ? "text-navy" : "text-white"
             )}
-          >
-            JLA
-          </div>
-          <div className="hidden sm:block">
-            <p
-              className={cn(
-                "text-base font-bold tracking-tight transition-colors duration-300",
-                useSolidHeader ? "text-navy" : "text-white"
-              )}
-            >
-              JLA Link
-            </p>
-            <p
-              className={cn(
-                "text-xs transition-colors duration-300",
-                useSolidHeader ? "text-muted" : "text-white/75"
-              )}
-            >
-              捷联
-            </p>
-          </div>
+            subtitleClassName={cn(
+              "transition-colors duration-300",
+              useSolidHeader ? "text-muted" : "text-white/75"
+            )}
+          />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">

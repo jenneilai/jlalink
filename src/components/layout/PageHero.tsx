@@ -23,7 +23,7 @@ export async function PageHero({
           variant="light"
           className="mb-6"
         />
-        <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-teal sm:mb-3 sm:text-sm">
+        <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-brand-cyan sm:mb-3 sm:text-sm">
           JLA Link · 捷联
         </p>
         <h1 className="max-w-3xl text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
