@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { BrandMark } from "./BrandMark";
 
 type BrandLockupProps = {
   nameClassName?: string;
@@ -16,7 +16,16 @@ export function BrandLockup({
 }: BrandLockupProps) {
   return (
     <div className={cn("flex items-center gap-3", className)}>
-      <BrandMark />
+      <Image
+        src="/brand-logo.png"
+        alt="JLA Link"
+        width={96}
+        height={96}
+        quality={100}
+        unoptimized
+        className="h-10 w-10 shrink-0 rounded-xl object-contain sm:h-11 sm:w-11"
+        priority
+      />
       <div className={cn(showSubtitle ? "hidden sm:block" : "block")}>
         <p className={cn("text-base font-bold tracking-tight", nameClassName)}>
           JLA Link
