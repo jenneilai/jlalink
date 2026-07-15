@@ -17,6 +17,11 @@
     "goBack": "返回上一页",
     "backToTop": "回到顶部"
   },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "您访问的页面不存在，或已被移动。",
+    "backHome": "返回首页"
+  },
   "hero": {
     "badge": "捷联 · JLA Link · 广州",
     "headline": "连接您的企业，可靠寻源中国",
@@ -486,7 +491,9 @@
       "company": "公司名称",
       "message": "我们如何帮助您？",
       "submit": "发送消息",
-      "success": "感谢留言——我们将在一个工作日内与您联系。"
+      "sending": "发送中…",
+      "success": "感谢留言——我们将在一个工作日内与您联系。",
+      "error": "发送失败，请重试或直接发送邮件联系我们。"
     },
     "info": {
       "title": "联系方式",

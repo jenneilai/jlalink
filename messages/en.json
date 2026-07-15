@@ -17,6 +17,11 @@
     "goBack": "Go Back",
     "backToTop": "Back to top"
   },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have moved.",
+    "backHome": "Back to Home"
+  },
   "hero": {
     "badge": "捷联 · JLA Link · Guangzhou",
     "headline": "We Connect Your Business with Reliable China Sourcing",
@@ -486,7 +491,9 @@
       "company": "Company",
       "message": "How can we help you?",
       "submit": "Send message",
-      "success": "Thank you — we'll be in touch within one business day."
+      "sending": "Sending…",
+      "success": "Thank you — we'll be in touch within one business day.",
+      "error": "Something went wrong. Please try again or email us directly."
     },
     "info": {
       "title": "Get in touch",

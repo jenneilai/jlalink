@@ -54,6 +54,7 @@ export function SocialContactIcons({
       <a
         href={siteContact.wechatUrl}
         aria-label={t("wechat")}
+        title={t("wechatId", { id: siteContact.wechatId })}
         className={iconBase}
       >
         <svg viewBox="0 0 24 24" aria-hidden="true" className="fill-current">

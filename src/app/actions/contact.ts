@@ -15,6 +15,7 @@ export async function submitContact(
 ): Promise<ContactFormState> {
   const name = String(formData.get("name") ?? "").trim();
   const email = String(formData.get("email") ?? "").trim();
+  const phone = String(formData.get("phone") ?? "").trim();
   const company = String(formData.get("company") ?? "").trim();
   const message = String(formData.get("message") ?? "").trim();
 
@@ -22,13 +23,19 @@ export async function submitContact(
     return { ok: false, message: "error" };
   }
 
-  if (!emailPattern.test(email) || name.length > 120 || message.length > 4000) {
+  if (
+    !emailPattern.test(email) ||
+    name.length > 120 ||
+    message.length > 4000 ||
+    phone.length > 40
+  ) {
     return { ok: false, message: "error" };
   }
 
   const payload = {
     name,
     email,
+    phone: phone || "—",
     company: company || "—",
     message,
     submittedAt: new Date().toISOString(),
@@ -46,13 +53,16 @@ export async function submitContact(
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: process.env.CONTACT_FROM_EMAIL ?? "JLA Link <onboarding@resend.dev>",
+          from:
+            process.env.CONTACT_FROM_EMAIL ??
+            "JLA Link <onboarding@resend.dev>",
           to: [notifyTo],
           reply_to: email,
           subject: `[JLA Link] New inquiry from ${name}`,
           text: [
             `Name: ${name}`,
             `Email: ${email}`,
+            `Phone: ${payload.phone}`,
             `Company: ${payload.company}`,
             "",
             message,
@@ -68,9 +78,17 @@ export async function submitContact(
       console.error("Contact form send failed:", error);
       return { ok: false, message: "error" };
     }
-  } else if (process.env.NODE_ENV === "development") {
-    console.info("[Contact form submission]", payload);
+
+    return { ok: true, message: "success" };
   }
 
-  return { ok: true, message: "success" };
+  if (process.env.NODE_ENV === "development") {
+    console.info("[Contact form submission]", payload);
+    return { ok: true, message: "success" };
+  }
+
+  console.error(
+    "Contact form: RESEND_API_KEY is not configured in production."
+  );
+  return { ok: false, message: "error" };
 }

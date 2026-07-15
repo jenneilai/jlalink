@@ -22,7 +22,7 @@ export function ServicesSection() {
   const [activeKey, setActiveKey] = useState<ServiceImageKey>("prospecting");
 
   return (
-    <section id="services" className="section-padding bg-white">
+    <section id="services" className="scroll-mt-20 section-padding bg-white">
       <div className="container-wide">
         <FadeIn>
           <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">

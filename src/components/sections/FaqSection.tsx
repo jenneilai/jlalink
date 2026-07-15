@@ -22,7 +22,7 @@ export function FaqSection() {
   const [openKey, setOpenKey] = useState<string | null>(faqKeys[0]);
 
   return (
-    <section id="faq" className="section-padding bg-white">
+    <section id="faq" className="scroll-mt-20 section-padding bg-white">
       <div className="container-wide">
         <FadeIn>
           <SectionHeading

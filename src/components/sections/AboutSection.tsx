@@ -22,7 +22,7 @@ export function AboutSection() {
   const valueKeys = ["trust", "efficiency", "expertise", "personalized"] as const;
 
   return (
-    <section id="about" className="section-padding section-alt">
+    <section id="about" className="scroll-mt-20 section-padding section-alt">
       <div className="container-wide">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <FadeIn>

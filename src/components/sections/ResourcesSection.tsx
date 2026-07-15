@@ -42,7 +42,7 @@ export function ResourcesSection() {
   };
 
   return (
-    <section id="resources" className="section-padding bg-white pb-0">
+    <section id="resources" className="scroll-mt-20 section-padding bg-white pb-0">
       <div className="container-wide">
         <FadeIn>
           <SectionHeading
