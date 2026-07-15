@@ -19,20 +19,18 @@ export function ContactSection() {
   };
 
   return (
-    <section id="contact" className="section-padding section-alt">
+    <section id="contact" className="section-padding-tight section-alt">
       <div className="container-wide">
         <FadeIn>
           <SectionHeading
-            label={t("label")}
             title={t("title")}
             description={t("description")}
             align="center"
-            wide
-            className="mx-auto"
+            className="mx-auto max-w-xl"
           />
         </FadeIn>
 
-        <FadeIn className="mx-auto mt-10 max-w-2xl lg:mt-12">
+        <FadeIn className="mx-auto mt-8 max-w-2xl lg:mt-10">
           <form
             onSubmit={handleSubmit}
             className="card-premium p-6 sm:p-8"

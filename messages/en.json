@@ -178,7 +178,7 @@
   },
   "cta": {
     "title": "Let's work together",
-    "description": "Whether you're just starting with China or looking for reliable local support on your next order — we'd be glad to hear from you.",
+    "description": "Your Guangzhou sourcing team — here to help you every step of the way.",
     "primary": "Contact us",
     "secondary": "View our services"
   },
@@ -476,9 +476,9 @@
     }
   },
   "contact": {
-    "label": "Contact",
-    "title": "Let's discuss your China sourcing goals",
-    "description": "Tell us about your products, timeline, and priorities. Our Guangzhou consultants will respond within one business day with practical next steps.",
+    "label": "",
+    "title": "Send us a message",
+    "description": "We'll get back to you within one business day.",
     "form": {
       "name": "Name",
       "email": "Email",

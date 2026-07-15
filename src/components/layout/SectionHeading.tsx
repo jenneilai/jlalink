@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 interface SectionHeadingProps {
-  label: string;
+  label?: string;
   title: string;
   description?: string;
   align?: "left" | "center";
@@ -27,9 +27,11 @@ export function SectionHeading({
         className
       )}
     >
-      <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-teal sm:mb-3 sm:text-sm">
-        {label}
-      </p>
+      {label ? (
+        <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-teal sm:mb-3 sm:text-sm">
+          {label}
+        </p>
+      ) : null}
       <h2
         className={cn(
           "text-balance text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-[2.25rem] lg:leading-[1.15]",

@@ -23,7 +23,7 @@ export function CtaSection() {
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button asChild size="lg">
-                <Link href="/contact">
+                <Link href="/#contact">
                   {t("primary")}
                   <ArrowRight className="h-4 w-4" />
                 </Link>
